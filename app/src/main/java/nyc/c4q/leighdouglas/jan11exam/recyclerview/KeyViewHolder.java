@@ -21,7 +21,7 @@ public class KeyViewHolder extends RecyclerView.ViewHolder {
 
     }
 
-    public void bind(KeyObject key){
+    public void bind(KeyObject key) {
         keyText.setText(key.getName());
         keyText.setTextColor(Color.parseColor(key.getTextColor()));
     }

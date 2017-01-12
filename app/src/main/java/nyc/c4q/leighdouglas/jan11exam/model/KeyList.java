@@ -11,7 +11,8 @@ import java.util.List;
 
 public class KeyList {
 
-    @SerializedName("available keys") public List<KeyObject> availableKeys;
+    @SerializedName("available keys")
+    public List<KeyObject> availableKeys;
 
     public List<KeyObject> getAvailableKeys() {
         return availableKeys;
