@@ -31,15 +31,6 @@ public class KeyAdapter extends RecyclerView.Adapter<KeyViewHolder> {
     @Override
     public void onBindViewHolder(KeyViewHolder holder, int position) {
         final KeyObject keyObject = keyList.get(position);
-        holder.itemView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), KeyImageActivity.class);
-                intent.putExtra(KeyConstants.EXTRA_IMAGE_URL, keyObject.getUrl());
-                view.getContext().startActivity(intent);
-            }
-        });
-
         holder.bind(keyObject);
     }
 
