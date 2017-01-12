@@ -27,7 +27,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 
 public class ListFragment extends Fragment {
-    static String TAG = "Retrofit:";
+    static String TAG = "Retrofit";
     private KeyAdapter keyAdapter;
     private RecyclerView recyclerView;
 
