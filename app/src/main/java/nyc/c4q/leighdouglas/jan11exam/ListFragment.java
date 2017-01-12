@@ -27,9 +27,11 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 
 public class ListFragment extends Fragment {
-    static String TAG = "Retrofit";
+
     private KeyAdapter keyAdapter;
     private RecyclerView recyclerView;
+
+    static String TAG = "Retrofit";
 
     @Nullable
     @Override
@@ -40,6 +42,7 @@ public class ListFragment extends Fragment {
         keyAdapter = new KeyAdapter();
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerView.setAdapter(keyAdapter);
+
         return view;
     }
 

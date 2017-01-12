@@ -10,7 +10,7 @@ import retrofit2.http.GET;
 
 public interface KeyService {
 
-    static String BASE_URL = "http://jsjrobotics.nyc/";
+    public static String BASE_URL = "http://jsjrobotics.nyc/";
 
     @GET("cgi-bin/1_11_2017_exam.pl")
     Call<KeyList> getListOfKeys();

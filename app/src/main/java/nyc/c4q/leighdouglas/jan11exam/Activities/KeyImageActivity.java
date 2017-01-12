@@ -46,7 +46,7 @@ public class KeyImageActivity extends AppCompatActivity {
             super.onBackPressed();
         } else {
             clickedOnce = true;
-            Toast.makeText(this, "Toast",
+            Toast.makeText(this, "Press once more to see list",
                     Toast.LENGTH_SHORT).show();
         }
     }

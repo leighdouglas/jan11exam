@@ -2,7 +2,6 @@ package nyc.c4q.leighdouglas.jan11exam.model;
 
 import com.google.gson.annotations.SerializedName;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
